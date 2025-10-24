@@ -1,0 +1,598 @@
+/* ===========================================================
+   HOME SECTION
+=========================================================== */
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 55px;
+  padding-top: 8%;
+  padding-bottom: 10%;
+  color: #fff;
+}
+
+.homesection {
+  flex: 1 1 100px;
+  margin-top: 100px;
+}
+
+.homesection h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.homesection h2 {
+  color: #00bcd4;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.homesection p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ddd;
+  margin-bottom: 50px;
+}
+
+.btn {
+  padding: 14px 38px;
+  border-radius: 40px;
+  border: none;
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 77, 109, 0.3);
+}
+
+/* Right side image box */
+.contentbox {
+  flex: 1 1 100px;
+  text-align: left;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+/* ===========================================================
+   ABOUT SECTION
+=========================================================== */
+.about {
+  background: #0b0b0b;
+  padding: 100px 10%;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.about-intro {
+  margin-bottom: 70px;
+}
+
+.about-intro h5 {
+  font-size: 1rem;
+  color: #00bcd4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.about-intro h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about-intro p {
+  font-size: 1rem;
+  color: #ccc;
+  text-align: left;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.about-text {
+  flex: 1 1 450px;
+  line-height: 1.8;
+  color: #ddd;
+  font-size: 1rem;
+}
+
+.about-card {
+  flex: 1 1 350px;
+  background: #111;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 188, 212, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #222;
+}
+.about-card h2 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #00bcd4;
+}
+.about-card h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.about-card img {
+  width: 100%;
+  height: 70px;
+}
+
+.about-card h4 {
+  text-align: center;
+}
+
+.about-card p {
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  border-color: #00bcd4;
+  box-shadow: 0 15px 30px rgba(0, 188, 212, 0.2);
+}
+
+/* ===========================================================
+   SERVICES SECTION
+=========================================================== */
+.services-section {
+  background: linear-gradient(180deg, #000, #0b0b0b);
+  padding: 100px 10%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.services-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.services-left h3 {
+  color: #00bcd4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.services-left h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.services-left p {
+  color: #bbb;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  background: #00bcd4;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+/* Service cards grid */
+.services-right {
+  flex: 1.2;
+  min-width: 280px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  background: #111;
+  color: #fff;
+  border-radius: 16px;
+  padding: 35px 25px;
+  border: 1px solid #222;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  border-color: #00bcd4;
+  box-shadow: 0 10px 25px rgba(0, 188, 212, 0.2);
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.service-card .arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .arrow {
+  transform: translate(5px, -5px);
+}
+
+/* ===========================================================
+   TOOLS SECTION
+=========================================================== */
+.abouttools {
+  background: linear-gradient(180deg, #050505, #0b0b0b);
+  padding: 100px 10%;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  flex-wrap: wrap;
+}
+
+.tools-intro h5 {
+  font-size: 1.2rem;
+  color: #00bcd4;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.tools-card {
+  width: 160px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 20px rgba(0, 188, 212, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.tools-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 188, 212, 0.15), transparent 60%);
+  transform: translateY(100%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.tools-card:hover::before {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.tools-card img {
+  width: 65px;
+  height: 50px;
+  filter: drop-shadow(0 4px 8px rgba(0, 188, 212, 0.5));
+  transition: transform 0.4s ease;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+.tools-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.tools-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  border-color: rgba(0, 188, 212, 0.5);
+  box-shadow: 0 8px 30px rgba(0, 188, 212, 0.2);
+}
+
+.tools-card:hover img {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.tools-card:hover h4 {
+  color: #00bcd4;
+}
+
+/* ===========================================================
+   FOOTER
+=========================================================== */
+.footer {
+  background-color: #0e0e0e;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 60px 10%;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-text h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.hire-btn {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #444;
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.hire-btn:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.footer-divider {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+}
+.footer-column p {
+  margin-top:15px ;
+  flex: 1;
+  min-width: 220px;
+}
+.social-icons{
+  margin-top: 20px;
+  gap: 15px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 50px;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* ===========================================================
+   RESPONSIVE MEDIA QUERIES
+=========================================================== */
+
+/* ---------- TABLET ---------- */
+@media (max-width: 992px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 6%;
+  }
+
+  .homesection {
+    margin-top: 40px;
+  }
+
+  .homesection h1,
+  .homesection h2 {
+    font-size: 2.5rem;
+  }
+
+  .contentbox {
+    margin-top: 40px;
+  }
+
+  .about {
+    padding: 80px 6%;
+  }
+
+  .about-card {
+    flex: 1 1 45%;
+  }
+
+  .services-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 6%;
+  }
+
+  .services-right {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .card-tools {
+    gap: 70px;
+  }
+
+  .footer {
+    padding: 60px 6%;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 600px) {
+  .home {
+    flex-direction: column;
+    padding: 60px 5%;
+    text-align: center;
+  }
+
+  .homesection h1 {
+    font-size: 2rem;
+  }
+
+  .homesection h2 {
+    font-size: 2.2rem;
+  }
+
+  .img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-intro h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-card {
+    width: 100%;
+  }
+
+  .services-section {
+    padding: 60px 5%;
+  }
+
+  .services-left h1 {
+    font-size: 2rem;
+  }
+
+  .services-right {
+    grid-template-columns: 1fr;
+  }
+
+  .abouttools {
+    padding: 60px 5%;
+  }
+
+  .tools-card {
+    width: 130px;
+    height: 150px;
+  }
+
+  .footer-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .footer-links {
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+  }
+}
