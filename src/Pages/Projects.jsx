@@ -6,15 +6,15 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 // Import images
 import uiux1 from "../Images/uiuxdesign1.png";
 import ux2 from "../Images/uiuxdesign2.png";
-import dev1 from "../images/development1.png";
-import dev2 from "../images/development2.png";
-import dev3 from "../images/development3.png";
-import graphic1 from "../images/politicalposter.png";
-import graphic2 from "../images/socialmedia.png";
-import graphic3 from "../images/zenlogo.svg";
-import wp1 from "../images/wpproject1.png";
-import wp2 from "../images/wpproject2.png";
-import wp3 from "../images/wpproject3.png";
+import dev1 from "../Images/development1.png";
+import dev2 from "../Images/development2.png";
+import dev3 from "../Images/development3.png";
+import graphic1 from "../Images/politicalposter.png";
+import graphic2 from "../Images/socialmedia.png";
+import graphic3 from "../Images/zenlogo.svg";
+import wp1 from "../Images/wpproject1.png";
+import wp2 from "../Images/wpproject2.png";
+import wp3 from "../Images/wpproject3.png";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
