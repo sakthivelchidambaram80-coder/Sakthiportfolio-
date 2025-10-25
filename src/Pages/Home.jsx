@@ -8,7 +8,7 @@ import react from "../Images/react.jpg";
 import photoshop from "../Images/photoshop.jpg";
 import illustrator from "../Images/illustrator.png";
 import Aftereffect from "../Images/Aftereffect.png";
-import visualstudio from "../Images/VisualStudio.png";
+import visualstudio from "../Images/Visualstudio.png";
 import javascript from "../Images/javascript.webp";
 import { FaInstagram, FaWhatsapp  } from "react-icons/fa";
 import { Link } from "react-router-dom";

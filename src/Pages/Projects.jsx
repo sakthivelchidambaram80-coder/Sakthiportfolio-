@@ -4,8 +4,8 @@ import { FaFigma, FaCode, FaPaintBrush, FaWordpress } from "react-icons/fa";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 // Import images
-// import uiux1 from "../images/uiuxdesign1.png";
-// import ux2 from "../images/uiuxdesign2.png";
+import uiux1 from "../Images/uiuxdesign1.png";
+import ux2 from "../Images/uiuxdesign2.png";
 import dev1 from "../images/development1.png";
 import dev2 from "../images/development2.png";
 import dev3 from "../images/development3.png";
