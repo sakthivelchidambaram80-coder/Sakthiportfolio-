@@ -1,16 +1,11 @@
-
-
-
 import React, { useState } from "react";
 import "./Projects.css";
 import { FaFigma, FaCode, FaPaintBrush, FaWordpress } from "react-icons/fa";
-import { FaInstagram, FaWhatsapp  } from "react-icons/fa";
-
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 // Import images
-import uiux1 from "../images/uiuxdesign1.png";
-import ux2 from "../images/uiuxdesign2.png";
-import ux3 from "../images/uiuxdesign3.png";
+// import uiux1 from "../images/uiuxdesign1.png";
+// import ux2 from "../images/uiuxdesign2.png";
 import dev1 from "../images/development1.png";
 import dev2 from "../images/development2.png";
 import dev3 from "../images/development3.png";
@@ -107,7 +102,10 @@ const Projects = () => {
 
       {/* Category Modal */}
       {selectedCategory && (
-        <div className="projects-popup" onClick={() => setSelectedCategory(null)}>
+        <div
+          className="projects-popup"
+          onClick={() => setSelectedCategory(null)}
+        >
           <div
             className="projects-popup-content"
             onClick={(e) => e.stopPropagation()}
@@ -137,69 +135,62 @@ const Projects = () => {
           </div>
         </div>
       )}
-        
 
-
-
-
-
-    {/* Footer */}
-     <footer className="footer">
-          <div className="footer-top">
-            <div className="footer-text">
-              <h1>
-                Let's Connect  There
-              </h1>
-            </div>
-             <a href="/contact" className="hire-btn">Hire Me Now!</a>
+      {/* Footer */}
+      <footer className="footer">
+        <div className="footer-top">
+          <div className="footer-text">
+            <h1>Let's Connect There</h1>
           </div>
-    
-          <hr className="footer-divider" />
-    
-          <div className="footer-content">
-            <div className="footer-column logo-column">
-              <h2 className="footer-logo">Sakthivel</h2>
-              <p>
-                Front-End Developer |<br></br> UI/UX Designer |<br></br> Graphic Designer |<br></br> WordPress Developer
-              </p>
-              <div className="social-icons">
-                <FaInstagram />
-                <FaWhatsapp />
-                
-              </div>
-            </div>
-    
-            <div className="footer-column">
-              <h3>Address</h3>
-              <p>Chennai,Tamil Nadu ,India</p>
-              <p> angalore,Karanataka,India</p>
-            </div>
-    
-            <div className="footer-column">
-              <h3>Email Address</h3>
-              <p>sakthivelchidambaram80@gmail.com</p>
-              
-            </div>
-    
-            <div className="footer-column">
-              <h3>Phone Number</h3>
-              <p>91+ 8438319856</p>
-              <p>91+ 9123568080</p>
+          <a href="/contact" className="hire-btn">
+            Hire Me Now!
+          </a>
+        </div>
+
+        <hr className="footer-divider" />
+
+        <div className="footer-content">
+          <div className="footer-column logo-column">
+            <h2 className="footer-logo">Sakthivel</h2>
+            <p>
+              Front-End Developer |<br></br> UI/UX Designer |<br></br> Graphic
+              Designer |<br></br> WordPress Developer
+            </p>
+            <div className="social-icons">
+              <FaInstagram />
+              <FaWhatsapp />
             </div>
           </div>
-    
-          <div className="footer-links">
-            <a href="#">Home</a>
-             <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Tools</a>
-           
+
+          <div className="footer-column">
+            <h3>Address</h3>
+            <p>Chennai,Tamil Nadu ,India</p>
+            <p> angalore,Karanataka,India</p>
           </div>
-    
-          <div className="footer-bottom">
-            <p>All rights reserved © sakthivel</p>
+
+          <div className="footer-column">
+            <h3>Email Address</h3>
+            <p>sakthivelchidambaram80@gmail.com</p>
           </div>
-        </footer>
+
+          <div className="footer-column">
+            <h3>Phone Number</h3>
+            <p>91+ 8438319856</p>
+            <p>91+ 9123568080</p>
+          </div>
+        </div>
+
+        <div className="footer-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Tools</a>
+        </div>
+
+        <div className="footer-bottom">
+          <p>All rights reserved © sakthivel</p>
+        </div>
+      </footer>
     </section>
   );
 };
