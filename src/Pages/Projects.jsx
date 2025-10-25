@@ -6,6 +6,7 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 // Import images
 import uiux1 from "../Images/uiuxdesign1.png";
 import ux2 from "../Images/uiuxdesign2.png";
+import ux3 from "../Images/uiuxdesign3.png";
 import dev1 from "../Images/development1.png";
 import dev2 from "../Images/development2.png";
 import dev3 from "../Images/development3.png";
