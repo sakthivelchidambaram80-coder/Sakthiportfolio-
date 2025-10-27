@@ -43,9 +43,9 @@ const Home = () => {
             Front-End Developer | UI/UX Designer <br></br>| Graphic Designer |
             WordPress Developer
           </p>
-          <a href="/Projects" className="btn">
-            View My Work
-          </a>
+<Link to="/Projects" className="btn">
+  View My Work
+</Link>
         </div>
         <div className="contentbox">
           <img className="img" src={photo} alt="photo" />
