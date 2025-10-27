@@ -8,6 +8,7 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+
     e.preventDefault();
 
     emailjs
@@ -46,7 +47,7 @@ const Contact = () => {
           </div>
           <div className="info-item">
             <FaPhoneAlt className="icon" />
-            <p>+91 98765 43210</p>
+            <p>+91 84383 19856</p>
           </div>
           <div className="info-item">
             <FaMapMarkerAlt className="icon" />
